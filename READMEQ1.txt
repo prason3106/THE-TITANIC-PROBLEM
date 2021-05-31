@@ -1,0 +1,26 @@
+You will have 2 datasets. One dataset is titled train.csv and the other is titled test.csv.
+
+Train.csv will contain the details of a subset of the passengers on board (891 to be exact) and importantly, will reveal whether they survived or not, also known as the “ground truth”.
+
+The test.csv dataset contains similar information but does not disclose the “ground truth” for each passenger. It’s your job to predict these outcomes.
+
+Using the patterns you find in the train.csv data, predict whether the other 418 passengers on board (found in test.csv) survived.
+
+This Notebook will show basic examples of:
+Data Handling Importing Data with Pandas Cleaning Data Exploring Data through Visualizations with Matplotlib
+
+Data Analysis
+Supervised Machine learning Techniques: Logit Regression Model Plotting results Support Vector Machine (SVM) using 3 kernels Basic Random Forest Plotting results
+
+Valuation of the Analysis
+K-folds cross validation to valuate results locally Output the results from the IPython Notebook to csv file
+
+Required Libraries:
+NumPy
+IPython
+Pandas
+SciKit-Learn
+SciPy
+StatsModels
+Patsy
+Matplotlib
